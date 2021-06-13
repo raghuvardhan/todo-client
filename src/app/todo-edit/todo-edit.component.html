@@ -1,0 +1,20 @@
+    <form>
+        <div class="row">
+
+        <div class="col-md-1">
+            <label for="descr">Task</label>
+        </div>
+        <div class="col-md-8">
+            <input class="form-control" type="text" name="descr" [(ngModel)]="model.description">
+        </div>
+        <div class="col-md-1">
+            <button type="submit" class="btn btn-success" (click)="onSave()">Save</button>
+        </div>
+        <div class="col-md-1">
+            <button class="btn btn-danger" (click)="resetTodo()">Cancel</button>
+        </div>
+    
+</div>
+</form>
+
+
